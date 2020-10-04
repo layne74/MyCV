@@ -18,7 +18,7 @@ The site is intended to be my personal portfolio.
 1. Nothing to install, just open this <a target="_blank" href="https://layne74.github.io/MyCV/">**link**</a>.
 
 ## Usage
-- As stated in above just open this <a target="_blank" href="https://layne74.github.io/T24-Capstone/index.html">**link**</a>. Like this: <img src="https://layne74.github.io/MyCV/">
+- As stated in above just open this <a target="_blank" href="https://layne74.github.io/MyCV/">**link**</a>.
 - The homepage will look like this:<img src="https://i.imgur.com/XSVt4L4.png">
 
 ## Credits
