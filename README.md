@@ -11,7 +11,6 @@ The site is intended to be my personal portfolio.
 - [Installation](#installation)
 - [Usage](#usage)
   1. How to use
-  1. Screenshots
 - [Credits](#credits)
 
 ## Installation
