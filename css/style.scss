@@ -1,0 +1,311 @@
+$red: #eb1e49;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 40px;
+}
+
+h3 {
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+}
+
+//------------------NAVBAR-------------------------
+
+.main-nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: rgb(58, 58, 58);
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 2px solid rgb(0, 192, 192);
+    padding: 0px 35px;
+    z-index: 1;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.logo {
+    height: 60px;
+    padding-top: 5px;
+}
+
+.contact-btn {
+    margin-top: 15px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+    background-color: $red;
+
+    a {
+        color: white;
+    }
+}
+
+.contact-btn:hover {
+    background-color: $red + 6;
+}
+
+.contact-btn:active {
+    outline: none;
+}
+
+.nav-area {
+    list-style: none;
+    padding-top: 12px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.nav-area li{
+    display: inline;
+    list-style: none;
+    padding: 0px 25px;
+    margin-left: 90px;
+}
+.nav-area li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(204, 204, 204);
+}
+
+.nav-area li a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    transition: 150ms;
+}
+
+//-------------------HERO--------------------------
+
+body {
+    top: 200px;
+}
+
+.main {
+    background-image: url(../img/backGround.jpg);
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    width: 60%;
+    padding: auto;
+    margin-left: 80px;
+    transform: translate(-50%, -50%);
+
+    h1 {
+        font-size: 60px;
+        font-weight: normal;
+        color: white;
+    }
+
+    span {
+        color: $red;
+    }
+}
+
+.scrlDwn {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    padding: auto;
+    transform: translate(-50%, -50%);
+
+    img {
+        height: 110px;
+        opacity: 0.5;
+    }
+
+    img:hover {
+        height: 110px;
+        opacity: 0.70;
+        transition: 115ms;
+    }
+}
+//-----------------MAIN-------------------
+
+.main-body {
+    height: 100vh;
+    position: relative;
+
+    .aboutP1 {
+        padding-top: 80px;
+        padding-left: 300px;
+        padding-right: 300px;
+        display: block;
+        margin: auto;
+        width: 60%;
+        height: 100vh;
+        text-align: center;
+    }
+
+    img {
+        height: 400px;
+        border-radius: 999px;
+        border: 1px solid $red;
+        margin: 50px;
+        width: auto;
+    }
+
+    .Layne {
+        display: inline-block;
+    }
+
+    .aboutP2 {
+        background-color: rgb(244, 244, 239);
+        height: 100vh;
+        padding: 0px 250px
+    }
+
+}
+
+.heading {
+    padding: 50px;
+    justify-content: center;
+}
+
+.bio {
+    border-right: 1px solid black;
+    padding: 0px 50px;
+}
+
+.education {
+    padding: 0px 50px;
+}
+
+//--------------------COMPETANCIES-------------------------
+
+.comp {
+    height: 100vh;
+    padding: 0px 250px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+    img {
+        border-radius: 0;
+        border: none;
+        
+    }
+}
+
+//--------------------CONTACT-------------------------
+.contact {
+    height: 60vh;
+    background-color: rgb(37, 41, 44);
+    padding: 0px 250px;
+
+    h2 {
+        color: white;
+        padding-bottom: 5px;
+    }
+
+    p {
+        color: whitesmoke;
+    }
+}
+
+.inner {
+    justify-content: center;
+    
+
+    img {
+        height: 450px;
+    }
+}
+
+.contactHeading {
+    padding: 50px;
+    padding-bottom: 5px;
+    justify-content: center;
+}
+
+.leftBlock {
+    color: white;
+    text-align: center;
+    padding-left: 200px;
+    border-right: 1px solid turquoise;
+    
+    h4 {
+        color: $red;
+    }
+
+    p {
+        color: inherit;
+    }
+}
+
+.rightBlock {
+    color: white;
+    text-align: center;
+    padding-right: 200px;
+    
+    h4 {
+        color: $red;
+    }
+
+    p {
+        color: inherit;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: inherit;
+    }
+}
+
+//----------------------FOOTER--------------------
+.foot {
+    overflow: hidden;
+}
+.footerBar {
+    width: auto;
+    height: 100px;
+    background-color: rgb(61, 61, 61);
+    justify-content: center;
+    
+    p {
+        padding-top: 30px;
+        color: rgb(146, 146, 146);
+    }
+    span {
+        color: $red;
+    }
+}
+//-------------------------------------------------
